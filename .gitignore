@@ -1,0 +1,19 @@
+# 照片與 Lightroom 輸出（檔案太大，且含 GPS 拍攝位置）
+lr_import/
+*.DNG
+*.dng
+*.jpg
+*.JPG
+*.lrcat
+
+# 工作輸出：判讀報告、預覽、目錄備份、skill 測試結果
+work/
+
+# 外掛執行時的資料夾
+bridge/inbox/
+bridge/exports/
+bridge/done/
+
+.DS_Store
+__pycache__/
+*.pyc

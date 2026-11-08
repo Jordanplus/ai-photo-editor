@@ -1,0 +1,188 @@
+{
+ "groups": {
+  "A_noboribetsu": {
+   "files": [
+    "0037",
+    "0038",
+    "0039",
+    "0040",
+    "0041",
+    "0043"
+   ],
+   "base": {
+    "Exposure": 0.15,
+    "Contrast": 5,
+    "Highlights": -40,
+    "Shadows": 20,
+    "Whites": 5,
+    "Blacks": -8,
+    "Texture": 15,
+    "Clarity": 8,
+    "Dehaze": 8,
+    "Vibrance": 18,
+    "SatOrange": 10,
+    "SatAqua": 15,
+    "SatBlue": 5
+   }
+  },
+  "B_sunset": {
+   "files": [
+    "0045",
+    "0046",
+    "0047",
+    "0056",
+    "0057"
+   ],
+   "base": {
+    "Exposure": 0.3,
+    "Contrast": 0,
+    "Highlights": -50,
+    "Shadows": 60,
+    "Whites": -5,
+    "Blacks": 5,
+    "Clarity": 5,
+    "Dehaze": 12,
+    "Vibrance": 15,
+    "SatOrange": 15,
+    "SatRed": 10,
+    "ColorGradeHighlightHue": 35,
+    "ColorGradeHighlightSat": 40,
+    "ColorGradeMidtoneHue": 30,
+    "ColorGradeMidtoneSat": 25,
+    "Vignette": -12
+   }
+  },
+  "C_forest": {
+   "files": [
+    "0048",
+    "0049",
+    "0050",
+    "0052",
+    "0053",
+    "0054"
+   ],
+   "base": {
+    "Exposure": 0.3,
+    "Contrast": 5,
+    "Highlights": -45,
+    "Shadows": 30,
+    "Whites": 0,
+    "Blacks": -5,
+    "Texture": 15,
+    "Clarity": 8,
+    "Dehaze": 5,
+    "Vibrance": 12,
+    "SatOrange": 8,
+    "SatGreen": -10,
+    "HueGreen": -15,
+    "SatBlue": 10,
+    "LumBlue": -15
+   }
+  },
+  "D_coast": {
+   "files": [
+    "0058"
+   ],
+   "base": {
+    "Exposure": 0.15,
+    "Contrast": 12,
+    "Highlights": -20,
+    "Shadows": 10,
+    "Whites": 20,
+    "Blacks": -10,
+    "Clarity": 8,
+    "Dehaze": 12,
+    "Vibrance": 15,
+    "SatBlue": 10,
+    "ColorGradeHighlightHue": 40,
+    "ColorGradeHighlightSat": 12
+   }
+  },
+  "E_yotei": {
+   "files": [
+    "0059",
+    "0060",
+    "0061",
+    "0062",
+    "0063",
+    "0064"
+   ],
+   "base": {
+    "Exposure": 0.2,
+    "Contrast": 12,
+    "Highlights": -45,
+    "Shadows": 20,
+    "Whites": 12,
+    "Blacks": -12,
+    "Texture": 12,
+    "Clarity": 10,
+    "Dehaze": 15,
+    "Vibrance": 18,
+    "SatOrange": 15,
+    "SatYellow": 10,
+    "SatGreen": -5,
+    "HueGreen": -8,
+    "SatBlue": 8,
+    "ColorGradeMidtoneHue": 40,
+    "ColorGradeMidtoneSat": 8
+   }
+  },
+  "F_lake": {
+   "files": [
+    "0001",
+    "0002",
+    "0003",
+    "0004",
+    "0005",
+    "0006"
+   ],
+   "base": {
+    "Exposure": 0.4,
+    "Contrast": 12,
+    "Highlights": -40,
+    "Shadows": 25,
+    "Whites": 15,
+    "Blacks": -12,
+    "Texture": 12,
+    "Clarity": 10,
+    "Dehaze": 15,
+    "Vibrance": 12,
+    "SatAqua": 15,
+    "SatBlue": 8,
+    "SatOrange": 10
+   }
+  }
+ },
+ "overrides": {
+  "0057": {
+   "Exposure": 0.5,
+   "Shadows": 70,
+   "ColorGradeHighlightSat": 25,
+   "ColorGradeMidtoneSat": 15
+  },
+  "0064": {
+   "Dehaze": 5,
+   "Clarity": 5,
+   "Highlights": -50
+  }
+ },
+ "group_detail": {
+  "B_sunset": {
+   "LuminanceSmoothing": 25
+  },
+  "C_forest": {
+   "LuminanceSmoothing": 12
+  }
+ },
+ "detail_overrides": {
+  "0046": {
+   "LuminanceSmoothing": 35
+  },
+  "0056": {
+   "LuminanceSmoothing": 35
+  },
+  "0057": {
+   "LuminanceSmoothing": 35
+  }
+ }
+}

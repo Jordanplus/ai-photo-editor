@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: flags-zoom-and-dark-sunsets
+expected_outcome: |
+  summary.md 正確指出變焦拍攝的照片（0057 為 3 倍，另 8 張為 2 倍）、夕陽組地面過暗需要補光，並考慮 BaselineExposure。

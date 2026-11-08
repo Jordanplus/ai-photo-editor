@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: extract-lr-renders-readonly
+expected_outcome: |
+  輸出 5 張由 Lightroom 預覽快取取出、已轉成 sRGB 的 JPEG，回報與目錄一致的曝光與白平衡，全程沒有操作 Lightroom 介面或修改目錄。
